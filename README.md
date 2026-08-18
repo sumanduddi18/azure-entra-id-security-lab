@@ -13,7 +13,7 @@ Hands-on Microsoft Entra ID security and Identity & Access Management (IAM) lab 
 
 ## 🏗️ Lab Architecture
 
-![Microsoft Entra ID Security Lab Architecture](Screenshots/00-Architecture-Diagram.png)
+<img src="./Screenshots/00-Architecture-Diagram.png" alt="Microsoft Entra ID Security Lab Architecture" width="100%">
 
 ## 🛠️ Technologies
 
@@ -54,11 +54,12 @@ azure-entra-id-security-lab/
 ├── README.md
 └── LICENSE
 
-🎓 Skills Demonstrated
+
+##🎓 Skills Demonstrated
 
 Microsoft Entra ID • IAM • Azure RBAC • Managed Identity • Service Principals • Application Identity • SSO • Identity Monitoring • Cloud Security
 
-📌 Project Status
+##📌 Project Status
 
 Completed
 
