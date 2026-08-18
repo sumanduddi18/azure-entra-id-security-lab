@@ -71,6 +71,8 @@ The lab was designed around common enterprise IAM and Azure Security Engineer sc
                                vm-sec-win-001           stsecuritydefence
                                       │                       │
                                       └──── Managed Identity ──┘
+
+
 -----
 🛠️ Technologies Used
 | Technology              | Purpose                              |
