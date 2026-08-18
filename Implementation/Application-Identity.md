@@ -1,4 +1,4 @@
-# 02 — Application Identity
+# Application Identity
 
 ## Objective
 
