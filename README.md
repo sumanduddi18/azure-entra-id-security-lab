@@ -12,7 +12,7 @@ Hands-on Microsoft Entra ID security and Identity & Access Management (IAM) lab 
 
 ## 🏗️ Lab Architecture
 
-![Microsoft Entra ID Security Lab Architecture](Screenshots/00-Architecture-Diagram.png)
+![Microsoft Entra ID Security Lab Architecture](Screenshots/Lab%20Architecture.png)
 
 ## 🛠️ Technologies
 
