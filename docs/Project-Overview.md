@@ -1,76 +1,96 @@
-# Microsoft Entra ID Security Lab
+# Microsoft Entra ID Security Lab – Project Overview
 
-## Project Overview
+## 1. Project Summary
 
-This project demonstrates hands-on implementation and administration of Microsoft Entra ID security and identity management capabilities in Microsoft Azure.
+This project demonstrates a hands-on implementation of Microsoft Entra ID security and Identity & Access Management (IAM) using Microsoft Azure.
 
-The lab focuses on practical Identity and Access Management (IAM) scenarios commonly encountered in enterprise Azure environments.
+The lab focuses on identity lifecycle management, access control, application identity, workload identity and identity monitoring.
 
-## Objectives
+## 2. Objectives
 
-- Manage Microsoft Entra ID users and groups
-- Implement administrative units for delegated administration
-- Configure Azure RBAC and role assignments
-- Manage Enterprise Applications
-- Configure application assignments and access
-- Perform App Registration
-- Manage client secrets and application credentials
+- Manage users, groups and Administrative Units
+- Implement Azure RBAC and least-privilege access
+- Configure Enterprise Applications
+- Configure App Registrations and Service Principals
 - Implement System-Assigned Managed Identity
-- Assign Azure RBAC permissions to managed identities
-- Review user, service principal, and managed identity sign-in logs
-- Analyze Microsoft Entra audit logs
-- Validate identity-related activities through Azure Activity Logs
+- Monitor authentication and identity activity
+- Analyze Sign-in, Audit and Activity Logs
 
-## Technologies
+## 3. Architecture
 
-- Microsoft Azure
-- Microsoft Entra ID
-- Azure RBAC
-- Enterprise Applications
-- App Registrations
-- Managed Identities
-- Azure Activity Logs
-- Microsoft Entra Audit Logs
-- Microsoft Entra Sign-in Logs
+![Microsoft Entra ID Security Lab Architecture](../Screenshots/Lab%20Architecture.png)
 
-## Environment
+## 4. Key Components
 
 | Component | Purpose |
 |---|---|
 | Microsoft Entra ID | Identity and access management |
-| Administrative Units | Delegated administration |
-| Security Groups | Role-based access organization |
-| Enterprise Application | Application access management |
+| Administrative Units | Delegated identity administration |
+| Security Groups | Access and permission management |
+| Azure RBAC | Resource-level authorization |
+| Enterprise Applications | Application access management |
 | App Registration | Application identity |
-| Client Secret | Application authentication |
-| Virtual Machine | Managed Identity workload |
-| Storage Account | RBAC target resource |
+| Service Principal | Application/workload authentication |
+| Managed Identity | Passwordless Azure resource authentication |
 | Sign-in Logs | Authentication monitoring |
 | Audit Logs | Identity change tracking |
 | Activity Logs | Azure resource activity monitoring |
 
-## Key Security Concepts
+## 5. Hands-on Implementation
 
-### Identity and Access Management
-Centralized management of users, groups, applications, and access permissions.
+### Identity Management
+- Created users and security groups
+- Created Administrative Units
+- Assigned users to appropriate groups and administrative scopes
 
-### Least Privilege
-Access is granted according to the minimum permissions required to perform a task.
-
-### Role-Based Access Control
-Azure RBAC is used to assign permissions at appropriate scopes such as subscription, resource group, or resource.
-
-### Managed Identity
-Azure resources can authenticate to supported services without storing credentials in application code.
+### Access Control
+- Reviewed Azure RBAC role assignments
+- Validated privileged and inherited permissions
+- Applied least-privilege access concepts
 
 ### Application Identity
-App Registrations and Enterprise Applications provide identity and access control for applications integrated with Microsoft Entra ID.
+- Added an Enterprise Application
+- Assigned users to the application
+- Created an App Registration
+- Configured a Service Principal
+- Created and reviewed a client secret
 
-### Identity Monitoring
-Audit Logs and Sign-in Logs provide visibility into authentication and identity-related administrative activities.
+### Managed Identity
+- Enabled System-Assigned Managed Identity on an Azure VM
+- Assigned Storage Blob Data Reader permission
+- Validated resource access through managed identity
+- Reviewed Managed Identity sign-in activity
 
-## Project Outcome
+### Monitoring
+- Reviewed interactive sign-in logs
+- Reviewed Service Principal sign-in logs
+- Reviewed Managed Identity sign-in logs
+- Reviewed Entra ID Audit Logs
+- Reviewed Azure Activity Logs
 
-The lab provides practical experience with Microsoft Entra ID administration, Azure IAM, application identity, managed identities, RBAC, and identity monitoring.
+## 6. Security Concepts Demonstrated
 
-These capabilities are directly relevant to Azure IAM, Azure Administrator, Cloud Security, and Azure Security Engineer support roles.
+- Least Privilege
+- Role-Based Access Control
+- Delegated Administration
+- Application Identity
+- Workload Identity
+- Passwordless Authentication
+- Identity Monitoring
+- Privileged Access Management Concepts
+
+## 7. Technologies Used
+
+**Microsoft Azure • Microsoft Entra ID • Azure RBAC • Enterprise Applications • App Registrations • Service Principals • Managed Identity • Azure Activity Logs**
+
+## 8. Project Outcome
+
+Successfully implemented and validated a practical Microsoft Entra ID security environment covering identity management, authorization, application identity, workload identity and monitoring.
+
+## 9. Repository
+
+Detailed implementation steps and hands-on evidence are available in:
+
+- `Implementation/`
+- `Screenshots/`
+- `README.md`
